@@ -1,7 +1,7 @@
 import { defaultTheme,defineUserConfig } from 'vuepress'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-import {searchPlugin} from '@vuepress/plugin-search@next'
-import {copyCodePlugin} from 'vuepress-plugin-copy-code2@next'
+import {searchPlugin} from '@vuepress/plugin-search'
+import {copyCodePlugin} from 'vuepress-plugin-copy-code2'
 
 export default {
   lang: 'zh-CN',

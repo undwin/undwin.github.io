@@ -1,4 +1,5 @@
 import { defineUserConfig } from 'vuepress'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -7,8 +8,9 @@ export default defineUserConfig({
   description: '这是我的第一个 VuePress 站点',
   deion:'基于 umi 的 Ant Design 实战教程',
   plugins:[
+     backToTopPlugin(),
       ['vuepress-plugin-yuque', {
-      repoUrl: 'https://www.yuque.com/muuc/blog',
+      repoUrl: 'https://www.yuque.com/ant-design/course',
     }]
     ]
 })

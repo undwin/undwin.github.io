@@ -1,26 +1,14 @@
 import { defaultTheme,defineUserConfig } from 'vuepress'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-import {searchPlugin} from '@vuepress/plugin-search'
-import {copyCodePlugin} from 'vuepress-plugin-copy-code2'
 
-export default {
+export default defineUserConfig({
   lang: 'zh-CN',
-  theme:defaultTheme(),
   title: '你好， VuePress ！',
   base: '/undwin.github.io/',
   description: '这是我的第一个 VuePress 站点',
   deion:'基于 umi 的 Ant Design 实战教程',
   plugins:[
      backToTopPlugin(),
-      // 搜索插件
-    searchPlugin({
-      hotKeys: ["ctrl", "k"], //聚焦热键为ctrl+k
-    }),
-    // 复制代码插件
-    copyCodePlugin({
-      showInMobile: true, //是否显示在移动端
-      pure: true, //复制按钮在代码块右上角
-    }),
       ['vuepress-plugin-yuque', {
       repoUrl: 'https://www.yuque.com/muuc/blog',
       authToken:'Enaz3HXg2cM55in5DJ64W32kedkf6r1suImoXghc',
@@ -32,4 +20,4 @@ export default {
       }
     }]
     ]
-}
+})

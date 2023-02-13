@@ -7,9 +7,9 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-     "keywords": [
-        "开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，JVM技术，MySQL，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧"
-    ],
+  "keywords": [
+    "开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，JVM技术，MySQL，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -17,7 +17,8 @@
     "@vuepress/plugin-back-to-top": "2.0.0-beta.60",
     "vue": "^3.2.47",
     "vuepress": "2.0.0-beta.60",
-    "vuepress-plugin-yuque": "^0.6.1"
+    "vuepress-plugin-yuque": "^0.6.1",
+    "vuepress-theme-reco": "2.0.0-beta.51"
   },
   "dependencies": {
     "@vuepress/plugin-search": "2.0.0-beta.60",
